@@ -32,7 +32,7 @@ Write a function named 'without' that returns a new object without provided prop
  
 ### Expected Result:
 `({ a: 1, b: 2 }, 'b') => { a: 1 }`
-
+func
 ```javascript
 const data = { a: 1, b: 2 };
 console.log(without(data, 'b')); // { a: 1 }
